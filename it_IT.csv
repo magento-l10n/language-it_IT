@@ -316,12 +316,20 @@ Industry,Settore
 "Pharma and Medical Devices","Farmaci e dispositivi medici"
 "Technology B2B","Tecnologia B2B"
 Other,Altro
+"The time value is using an unsupported format. Enter a supported format and try again.","Il valore dell'ora è in un formato non supportato. Immettere un formato supportato e riprovare."
+"Please select an industry.","Si prega di selezionare un settore."
+"The data is invalid. Enter the data as a string or data that can be converted into a string and try again.","I dati non sono validi. Immettere i dati come una stringa o dati che possono essere convertiti in una stringa e riprovare."
+"The data is invalid. Enter the data as a string and try again.","I dati non sono validi. Immettere i dati come una stringa e riprovare."
+"The data is invalid. Use a valid cipher method and try again.","I dati non sono validi. Utilizzare un metodo di crittografia valido e riprovare."
+"Enter the encryption key and try again.","Immettere la chiave di iscrizione e riprovare."
+"Retry Synchronization","Riprova a sincronizzare"
 Done,Fine
 Retry,Riprova
 "'Action Details - #' .","'Dettagli dell'azione - #'."
 "%1 item(s) have been scheduled for update.""","%1 elementi sono stati aggiunti per l'aggiornamento."""
 "Bulk Actions Log","Log azioni di massa"
 "Something went wrong while processing the request.","Qualcosa è andato storto durante l'elaborazione della richiesta."
+"Sorry, something went wrong during product prices update. Please see log for details.","Siamo spiacenti, qualcosa è andato storto durante l'aggiornamento dei prezzi del prodotto. Consultare il registro per maggiori dettagli."
 "%1 item(s) are currently being updated.","%1 elementi sono attualmente in fase di aggiornamento."
 "Task ""%1"": ","Attività ""%1"": "
 "%1 item(s) have been scheduled for update.","%1 elementi sono stati aggiunti per l'aggiornamento."
@@ -335,6 +343,7 @@ Dismiss,Chiudi
 ", %1 successfully updated",", aggiornato correttamente %1"
 ", %1 failed to update",", impossibile aggiornare %1"
 "Something went wrong.","Qualcosa è andato storto."
+Report,Rapporto
 "Bulk Actions","Azioni di massa"
 "Action Logs","Log azioni"
 "Days Saved in Log","Giorni salvati nel registro"
@@ -363,6 +372,7 @@ Error,Errore
 failed.,"non riuscito."
 successful.,"con successo."
 "Authorize.Net Transaction ID %1.","Authorize.Net transazione ID %1."
+authorize,autorizza
 "authorize and capture","autorizza e trattieni"
 capture,trattieni
 refund,rimborso
@@ -382,6 +392,7 @@ void,nullo
 "Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Qualcosa è andato storto: l'importo pagato non corrisponde al totale dell'ordine. Si prega di risolvere il problema e riprovare."
 "Transaction %1 has been approved. Amount %2. Transaction status is ""%3""","La transazione %1 è stata approvata. Importo %2. Lo stato della transazione è ""%3"""
 "Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.","La transazione %1 è stata annullata/rifiutata. Lo stato della transazione è ""%2"". Importo %3."
+"Authorize Only","Autorizza solamente"
 "Authorize and Capture","Autorizza e trattieni"
 "Unable to get transaction details. Try again later.","Impossibile ottenere i dettagli della transazione. Riprovare più tardi."
 "Electronic payments save the trees.","Pagamenti elettronici, Salva gli alberi."
@@ -401,6 +412,7 @@ void,nullo
 Enabled,Abilitato
 "Payment Action","Azione di pagamento"
 Title,Titolo
+"Transaction Key","Chiave di transazione"
 "New Order Status","Nuovo stato dell'ordine"
 "Test Mode","Modalità test"
 "Gateway URL","URL gateway"
@@ -419,6 +431,9 @@ Title,Titolo
 "Unable to place order. Please try again later.","Impossibile effettuare l'ordine. Si prega di riprovare più tardi."
 "A server error stopped your order from being placed. Please try to place your order again.","Un errore del server ha interrotto l'elaborazione del tuo ordine. Per favore, prova ad effettuare nuovamente l'ordine."
 "The transaction details are unavailable. Please try again later.","I dettagli della transazione non sono disponibili. Si prega di riprovare più tardi."
+"There was an error while trying to process the request.","Si è verificato un errore durante il caricamento della richiesta."
+"This transaction cannot be refunded with its current status.","Questa transazione non può essere rimborsata al suo stato attuale."
+"The authenticity of the gateway response could not be verified.","L'autenticità della risposta non può essere verificata."
 Environment,Ambiente
 "Transaction has been declined. Please try again later.","La transazione è stata rifiutata. Riprova più tardi."
 options,opzioni
