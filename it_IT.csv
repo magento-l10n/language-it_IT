@@ -323,6 +323,7 @@ Other,Altro
 "The data is invalid. Enter the data as a string and try again.","I dati non sono validi. Immettere i dati come una stringa e riprovare."
 "The data is invalid. Use a valid cipher method and try again.","I dati non sono validi. Utilizzare un metodo di crittografia valido e riprovare."
 "Enter the encryption key and try again.","Immettere la chiave di iscrizione e riprovare."
+"The ""%1"" source doesn't exist.","La fonte ""% 1"" non esiste."
 "Retry Synchronization","Riprova a sincronizzare"
 Done,Fine
 Retry,Riprova
@@ -3089,7 +3090,6 @@ Contacts,Contatti
 "A company registration request has been submitted by customer %customer. The account is temporarily locked until you approve or reject this company.","Una richiesta di registrazione per un nuovo profilo aziendale è pervenuta dal cliente %customer. L'account è temporaneamente bloccato fino a che non approverai o respingerai l'azienda."
 "Company: %company","Azienda: %company"
 "Your account type has been changed from Company Admin to a regular user account. If you think this is a mistake, please contact your manager for details.","Il tuo account è stato modificato da Amministratore Aziendale a Utente Standard. Se pensi che vi sia un errore, per favore contatta il tuo manager per maggiori dettagli."
-"%name,","%nome,"
 "You have been assigned to %company_name as the Sales Representative.","Sei stato assegnato come Rappresentante alle vendite di %company_name."
 "When you sign in to your account, you will be able to:","Accedendo al tuo account, sarai in grado di:"
 "* View and manage company quotes in Admin Panel","* Visualizza e gestisci i preventivi aziendali nel pannello di amministrazione"
@@ -5460,6 +5460,7 @@ User,Utente
 "Data validation is failed. Please fix errors and re-upload the file.","La convalida dei dati è fallita. Correggi gli errori e carica nuovamente il file."
 "in rows","nelle righe"
 "-- Not Selected --","-- Non selezionato --"
+"File name","Nome file"
 "Indexer Management","Gestione indici"
 "Update by Schedule","Aggiorna da pianificazione"
 "Update on Save","Aggiorna al salvataggio"
@@ -9732,6 +9733,7 @@ Scope:,Ambito:
 "%1 Item(s)","%1 elementi"
 Page,Pagina
 "You're currently reading page","Attualmente stai leggendo la pagina"
+"%name,","%nome,"
 "We don't recognize this file extension.","Non riconosciamo questa estensione file."
 "1 column","1 colonna"
 "Default welcome msg!","Testo di benvenuto predefinito!"
