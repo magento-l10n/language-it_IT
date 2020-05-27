@@ -2664,6 +2664,7 @@ Update,Aggiorna
 "Estimated Total","Totale Stimato"
 "You can create an account after checkout.","È possibile creare un account dopo il checkout."
 "You already have an account with us. Sign in or continue as guest.","Hai già un account con noi. Accedi o continua come ospite."
+Login,Accedi
 "See Details","Vedi dettagli"
 "Options Details","Dettagli opzioni"
 "Cart Subtotal","Subtotale Carrello"
@@ -2740,6 +2741,8 @@ items,elementi
 of,di
 "Something went wrong while saving the page. Please refresh the page and try again.","Qualcosa è andato storto mentre si stava salvando la pagina. Per favore, ricarica la pagina e riprova."
 "You added %1 to your <a href=""%2"">shopping cart</a>.","Hai aggiunto %1 al tuo <a href=""%2"">carrello</a>."
+"Please select at least one product to add to cart","Si prega di selezionare almeno un prodotto da aggiungere al carrello"
+"The quote item isn't found. Verify the item and try again.","L'articolo del preventivo non è stato trovato. Verifica l'articolo e riprova."
 "The product wasn't found. Verify the product and try again.","Il prodotto non è stato trovato. Verifica il prodotto e riprova."
 "The shipping address is missing. Set the address and try again.","Manca l'indirizzo di spedizione. Imposta l'indirizzo e riprova."
 "The shipping information was unable to be saved. Verify the input data and try again.","Impossibile salvare le informazioni per la spedizione. Verificare i dati di input e riprovare."
