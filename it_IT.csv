@@ -598,7 +598,7 @@ Submit,Invia
 "An error occurred while enabling cache.","Errore durante l'abilitazione della cache."
 "%1 cache type(s) refreshed.","%1 tipi di cache aggiornati."
 "An error occurred while refreshing cache.","Si è verificato un errore durante l'aggiornamento della cache."
-Dashboard,"Pannello di controllo"
+Dashboard,Cruscotto
 "We updated lifetime statistic.","Abbiamo aggiornato le statistiche."
 "We can't refresh lifetime statistics.","Non è possibile aggiornare le statistiche."
 "invalid request","richiesta non valida"
@@ -10498,6 +10498,7 @@ Worldpay,WorldPay
 "Payment was canceled","Il pagamento è stato annullato"
 "Please ","Per favore "
 "continue shopping","continua con gli acquisti"
+"Account Dashboard","Cruscotto Cliente"
 "Quick Checkout","Conferma ordine rapido"
 "Check the status of orders","Controlla gli status degli ordini"
 "Store alternative addresses","Indirizzi alternativi del negozio"
