@@ -1,6 +1,7 @@
 All,Tutti
 None,Nessuno
 "Allowed Scopes","Ambiti consentiti"
+"More permissions are needed to delete the ""%1"" item.","Sono necessari più permessi per eliminare l'elemento ""%1""."
 "You need more permissions to apply some of the rule updates.","Non hai permessi sufficienti per applicare alcuni aggiornamenti alle regole."
 "More permissions are needed to save this item.","Non hai i permessi necessari per salvare questo elemento."
 "You need more permissions to access website ""%1"".","Non hai permessi sufficienti per accedere al sito web: ""%1""."
@@ -8560,7 +8561,7 @@ Keyword,"Parola chiave"
 "Letters, numbers, spaces or underscores only please","Solo lettere, numeri, spazi e underscore"
 "Letters only please","Solo lettere"
 "No white space please","Nessuno spazio bianco"
-"Your ZIP-code must be in the range 902xx-xxxx to 905-xx-xxxx","Il tuo codice postale deve essere nell'intervallo da 902xx-xxxx a 905-xx-xxxx"
+"Your ZIP-code must be in the range 902xx-xxxx to 905-xx-xxxx","Il tuo CAP deve essere compreso tra 902xx-xxxx e 905-xx-xxxx"
 "A positive or negative non-decimal number please","Inserisci un numero positivo o negativo non decimale"
 "The specified vehicle identification number (VIN) is invalid.","Il numero di identificazione del veicolo (VIN) specificato non è valido."
 "Please enter a correct date","Inserisci una data corretta"
@@ -9137,6 +9138,7 @@ Warning,Attenzione
 "Method %s does not exist on jQuery.decorate","Non esiste un metodo %s su jQuery.decorate"
 "Please wait...",Attendere...
 Translate,Traduci
+"Your ZIP-code must be in the range 902xx-xxxx to 905-xx-xxxx","Il tuo codice postale deve essere nell'intervallo da 902xx-xxxx a 905-xx-xxxx"
 "Please remove invalid characters: {0}.","Per favore rimuovi i caratteri non validi: {0}."
 "Please select one of the options above.","Seleziona una delle opzioni sopra."
 "Please select a file.","Selezionare un file."
