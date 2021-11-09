@@ -1699,7 +1699,7 @@ Role,Ruolo
 "Buy %1 for: ","Acquista %1 per: "
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Acquista %1 a %2 ciascuno e <strong class=""benefit"">risparmia<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>"
 "Buy %1 for %2 each","Acquista %1 a %2 ognuno"
-"You added product %1 to the <a href=""%2"">comparison list</a>.","Hai aggiunto il prodotto %1 alla lista di confronto <a href=""%2""></a>."
+"You added product %1 to the <a href=""%2"">comparison list</a>.","Hai aggiunto il prodotto %1 alla <a href=""%2"">lista di confronto</a>."
 "Shop By","Naviga per"
 "Shopping Options",Opzioni
 "Compare Products","Confronta Prodotti"
@@ -5455,6 +5455,7 @@ Subscribers,Iscritti
 "Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.","Ci dispiace, ma l'amministratore ha negato l'iscrizione per gli ospiti. Si prega di <a href=""%1""> registrarsi</a>."
 "This email address is already subscribed.","Questo indirizzo e-mail è già registrato."
 "Something went wrong with the subscription.","Qualcosa è andato storto con l'iscrizione."
+"The confirmation request has been sent.","La richiesta di conferma è stata inviata."
 "Thank you for your subscription.","Grazie per la tua iscrizione."
 "You unsubscribed.","Hai annullato l'iscrizione."
 "Something went wrong while unsubscribing you.","Qualcosa è andato storto durante l'annullamento della tua iscrizione."
@@ -8032,6 +8033,7 @@ Calendar,Calendario
 Includes,Include
 "Current store is not active.","Il negozio corrente non è attivo."
 "Requested store is inactive","Lo store richiesto è inattivo"
+"The requested store cannot be found. Please check the request and try again.","Il negozio richiesto non può essere trovato. Si prega di controllare la richiesta e riprovare."
 "Environment emulation nesting is not allowed.","Annidamento ambienti di simulazione non consentito."
 "The following stores are not associated with a root category: ' . . '. For the store to be displayed in the storefront, it must be associated with a root category.","I seguenti negozi non sono associati a una categoria principale: '. . '. Per visualizzare il catalogo nella vetrina, esso deve essere associato a una categoria principale."
 "Group with the same code","Gruppo con lo stesso codice"
