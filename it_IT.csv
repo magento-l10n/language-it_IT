@@ -234,10 +234,17 @@ Yes,Sì
 "Error while checking if topic is synchronous","Errore durante la verifica se l'argomento è sincrono"
 "Subscription status","Stato dell'abbonamento"
 "Sorry, there has been an error processing your request. Please try again later.","Siamo spiacenti, si è verificato un errore durante l'elaborazione della tua richiesta. Per favore riprova più tardi."
+"The time value is using an unsupported format. Enter a supported format and try again.","Il valore dell'ora è in un formato non supportato. Immettere un formato supportato e riprovare."
 "Cron settings can't be saved","Le impostazioni di Cron non possono essere salvate"
 "There was an error save new configuration value.","Si è verificato un errore durante il salvataggio del nuovo valore di configurazione."
 "Please select an industry.","Si prega di selezionare un settore."
 "--Please Select--",--Seleziona--
+"Command ""%1"" was not found.","Il comando ""%1"" non è stato trovato."
+"The data is invalid. Enter the data as a string or data that can be converted into a string and try again.","I dati non sono validi. Immettere i dati come una stringa o dati che possono essere convertiti in una stringa e riprovare."
+"The data is invalid. Enter the data as a string and try again.","I dati non sono validi. Immettere i dati come una stringa e riprovare."
+"The data is invalid. Use a valid cipher method and try again.","I dati non sono validi. Utilizzare un metodo di crittografia valido e riprovare."
+"Enter the encryption key and try again.","Immettere la chiave di crittografia e riprovare."
+"The ""%1"" source doesn't exist.","La sorgente ""%1"" non esiste."
 "These arguments can't be empty ""%1""","Questi argomenti non possono essere uguali a ""% 1"""
 "Cannot find predefined integration user!","Impossibile trovare integrazione predefinite utente!"
 "File is not ready yet.","Il file non è ancora pronto."
@@ -253,11 +260,19 @@ TestMessage,"Messaggio di Test"
 "Go to Advanced Reporting","Vai ai Rapporti Avanzati"
 Configuration,Configurazione
 "BI Essentials","Essenziali Business intelligence"
+"This service provides a dynamic suite of reports with rich insights about your business.
+                Your reports can be accessed securely on a personalized dashboard outside of the admin panel by clicking on the
+                ""Go to Advanced Reporting"" link. </br> For more information, see our <a target=""_blank"" href=""https://magento.com/legal/terms/cloud-terms"">
+                terms and conditions</a>.","Questo servizio fornisce una suite dinamica di rapporti con ricchi approfondimenti sulla tua attività commerciale. I rapporti sono accessibili in modo sicuro su un dashboard personalizzabile al di fuori del pannello di amministrazione cliccando sul link ""Vai ai Rapporti Avanzati"".<br/>Per ulteriori informazioni, vedi i nostri <a target=""_blank"" href=""https://magento.com/legal/terms/cloud-terms"">termini e condizioni</a>."
 "Advanced Reporting Service","Servizio Rapporti Avanzati"
 "Time of day to send data","Ora del giorno per inviare i dati"
+"Industry Data","Dati di Settore"
 Industry,Settore
 "In order to personalize your Advanced Reporting experience, please select your industry.","Al fine di personalizzare la tua esperienza Advanced Reporting, si prega di selezionare il tuo settore."
 "<strong>Get more insights from Magento Business Intelligence</strong>","<strong>Ottieni ulteriori informazioni da Magento Business Intelligence</strong>"
+"Magento Business Intelligence provides you with a simple and clear path to
+                    becoming more data driven.</br> Learn more about <a target=""_blank""
+                    href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essentials and BI Pro</a> tiers.","Magento Business Intelligence fornisce un percorso semplice e chiaro per prendere decisioni guidati dai dati.<br/>Per maggiori informazioni livelli <a target=""_blank"" href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essentials e BI Pro</a>."
 "Auto Parts","Ricambi auto"
 "Baby/Children’s Apparel, Gear and Toys","Bambino/Bambini abbigliamento, Attrezzi e Giocattoli"
 "Beauty and Cosmetics","Bellezza e Cosmetici"
@@ -276,6 +291,7 @@ Industry,Settore
 "Pet Goods","Prodotti per animali domestici"
 "Pharma and Medical Devices","Farmaci e dispositivi medici"
 "Technology B2B","Tecnologia B2B"
+Other,Altro
 Done,Fine
 Retry,Riprova
 "'Action Details - #' .","'Dettagli dell'azione - #'."
@@ -1250,6 +1266,8 @@ Always,Sempre
 "Please type the letters and numbers below","Si prega di digitare le lettere e i numeri qui sotto"
 "Attention: Captcha is case sensitive.","Attenzione: il Captcha fa distinzione tra maiuscole e minuscole."
 "Enable CAPTCHA in Admin","Abilita CAPTCHA in Admin"
+Font,Carattere
+Forms,Moduli
 "Displaying Mode","Modalità di visualizzazione"
 "Number of Unsuccessful Attempts to Login","Numero di tentativi di Login falliti"
 "If 0 is specified, CAPTCHA on the Login form will be always available.","Se si specifica 0, il CAPTCHA nel form di accesso sarà sempre disponibile."
@@ -8783,7 +8801,6 @@ Non-rectangular,"Non rettangolare"
 Large,Largo
 "Service type does not match","Tipo di servizio non corrispondente"
 Gift,Regalo
-Other,Altro
 "Secure Gateway URL","URL del Gateway sicuro"
 Machinable,Lavorabile
 "Add New Variable","Aggiungi nuova variabile"
@@ -9146,6 +9163,8 @@ Worldpay,WorldPay
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Se hai domande sul tuo ordine, puoi inviare una email a <a href=""mailto:%store_email"">%store_email</a>."
 "Backup options","Opzioni backup"
 Warning,Attenzione
+"Insert Variable","Inserisci Variabile"
+"The widget %1 is no longer available. Select a different widget.","Il widget %1 non è più disponibile. Seleziona un widget diverso."
 "Recent items","Elementi recenti"
 "Show all...","Mostra tutto..."
 "Please enter a number greater 0 in this field.","Inserire un numero maggiore di 0 in questo campo."
@@ -9153,9 +9172,13 @@ Warning,Attenzione
 "Please specify Url.","Si prega di specificare l'Url."
 "Method %s does not exist on jQuery.decorate","Non esiste un metodo %s su jQuery.decorate"
 "Please wait...",Attendere...
+"All %1","Tutti %1"
 Translate,Traduci
+"No marginal white space please","Nessuno spazio bianco ai margini per favore"
 "Your ZIP-code must be in the range 902xx-xxxx to 905-xx-xxxx","Il tuo codice postale deve essere nell'intervallo da 902xx-xxxx a 905-xx-xxxx"
 "Please remove invalid characters: {0}.","Per favore rimuovi i caratteri non validi: {0}."
+"Forbidden extensions has been used. Avoid usage of ","Sono state usate estensioni vietate. Evita l'uso di "
+"First character must be letter.","Il primo carattere deve essere una lettera."
 "Please select one of the options above.","Seleziona una delle opzioni sopra."
 "Please select a file.","Selezionare un file."
 "Please select one of the options.","Seleziona una delle opzioni."
@@ -9170,6 +9193,11 @@ Translate,Traduci
 "Please enter valid SKU key.","Inserisci un codice SKU valido."
 "Please enter a valid number.","Inserisci un numero valido."
 "This is required field","Questo è un campo obbligatorio"
+"Admin is a required field in each row.","Admin è un campo obbligatorio in ogni riga."
+"Please enter a quantity greater than 0.","Immetti un valore maggiore di 0."
+"The fewest you may purchase is %1.","La quantità minima acquistabile è %1."
+"The maximum you may purchase is %1.","La quantità massima acquistabile è %1."
+"The password can't be the same as the email address. Create a new password and try again.","La password non può essere uguale all'indirizzo di posta elettronica. Creare una nuova password e riprovare."
 "Please fix this field.","Correggi questo campo."
 "Please enter a valid URL.","Immetti un URL valido."
 "Please enter a valid date (ISO).","Immetti una data valida (ISO)."
