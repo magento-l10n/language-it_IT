@@ -415,6 +415,8 @@ Environment,Ambiente
 options,opzioni
 "Select all","Seleziona tutto"
 "Deselect all","Deseleziona tutto"
+" Item(s)"," Elemento/i"
+"Items ","Elementi "
 "%s of %s selected","%s di %s selezionati"
 "B2B Features","Funzionalità B2B"
 "Invalid Form Key. Please refresh the page.","Chiave form non valida. Si prega di aggiornare la pagina."
