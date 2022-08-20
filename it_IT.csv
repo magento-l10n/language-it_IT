@@ -12,6 +12,7 @@ None,Nessuno
 "This item needs to be assigned to a store view. Assign item and try again.","Questo elemento deve essere assegnato a una vista negozio. Assegna l'elemento e riprova."
 "More permissions are needed to save this item.","Non hai i permessi necessari per salvare questo elemento."
 "More permissions are needed to delete this item.","Sono necessari più permessi per eliminare questo elemento."
+"Not allowed to edit the category's design attributes","Non è consentito modificare gli attributi di design della categoria"
 "At least one website or store group needs to be selected. Select and try again.","È necessario selezionare almeno un sito web o un gruppo di negozi. Selezionare e riprovare."
 "More permissions are needed to set All Scopes to a Role.","Sono necessari ulteriori permessi per impostare tutti gli ambiti in un ruolo."
 "The ""%1"" website ID is incorrect. Verify the website ID and try again.","L'ID del sito Web ""%1"" non è corretto. Verificare l'ID del sito Web e riprovare."
@@ -297,6 +298,11 @@ Retry,Riprova
 "'Action Details - #' .","'Dettagli dell'azione - #'."
 "%1 item(s) have been scheduled for update.""","%1 elementi sono stati aggiunti per l'aggiornamento."""
 "Bulk Actions Log","Log azioni di massa"
+"Bulk uuid %bulkUuid not exist","Il bulk uuid %bulkUuid non esiste"
+"Topic %1","Argomento %1"
+"Something went wrong while processing the request.","Qualcosa è andato storto durante l'elaborazione della richiesta."
+"Error processing %key element of input data","Errore durante l'elaborazione dell'elemento %key dei dati di input"
+"Sorry, something went wrong during product prices update. Please see log for details.","Siamo spiacenti, qualcosa è andato storto durante l'aggiornamento dei prezzi del prodotto. Consultare il log per maggiori dettagli."
 "%1 item(s) are currently being updated.","%1 elementi sono attualmente in fase di aggiornamento."
 "Task ""%1"": ","Attività ""%1"": "
 "%1 item(s) have been scheduled for update.","%1 elementi sono stati aggiunti per l'aggiornamento."
@@ -310,7 +316,10 @@ Dismiss,Chiudi
 ", %1 successfully updated",", aggiornato correttamente %1"
 ", %1 failed to update",", impossibile aggiornare %1"
 "Something went wrong.","Qualcosa è andato storto."
+"Action Log","Log delle Azioni"
+Report,Rapporto
 "Bulk Actions","Azioni di massa"
+"Action Logs","Log delle Azioni"
 "Days Saved in Log","Giorni salvati nel registro"
 "Description of Operation","Descrizione dell'operazione"
 Summary,Riepilogo
@@ -415,9 +424,22 @@ Environment,Ambiente
 options,opzioni
 "Select all","Seleziona tutto"
 "Deselect all","Deseleziona tutto"
+Selected,Selezionato
+"We couldn't find any records.","Non abbiamo trovato alcun record."
 " Item(s)"," Elemento/i"
 "Items ","Elementi "
+" to "," a "
+" of "," di "
+" total"," totale"
+Page,Pagina
+Previous,Precedente
+"You're currently reading page","Attualmente stai leggendo la pagina"
+Next,Successivo
+Show,Mostra
+"per page","per pagina"
 "%s of %s selected","%s di %s selezionati"
+"Search by keyword","Ricerca per parola chiave"
+"This is a required field.","Questo è un campo obbligatorio."
 "B2B Features","Funzionalità B2B"
 "Invalid Form Key. Please refresh the page.","Chiave form non valida. Si prega di aggiornare la pagina."
 "You entered an invalid Secret Key. Please refresh the page.","Hai inserito un codice segreto non valido. Si prega di aggiornare la pagina."
@@ -533,7 +555,6 @@ To,Al
 "[ deleted ]","[ eliminato ]"
 "Select All","Seleziona tutto"
 " [deleted]"," [eliminato]"
-"We couldn't find any records.","Non abbiamo trovato alcun record."
 "Add New","Aggiungi Nuovo"
 "Invalid export type supplied for grid export block","Tipo di esportazione fornito non valido per blocco di esportazione griglia"
 Export,Esporta
@@ -640,8 +661,6 @@ Username,"Nome Utente"
 "Sign Out",Esci
 "About the calendar","Informazioni sul calendario"
 "Go Today","Vai ad oggi"
-Previous,Precedente
-Next,Successivo
 Time,Orario
 Hour,Ora
 Minute,Minuto
@@ -666,7 +685,6 @@ Thumbnail,Miniatura
 "Additional Settings","Impostazioni aggiuntive"
 "records found","record trovati"
 selected,selezionato
-"per page","per pagina"
 "Previous page","Pagina precedente"
 "of %1","di %1"
 "Next page","Pagina successiva"
@@ -898,6 +916,8 @@ Download,Scarica
 "Delete Dynamic Block","Elimina Blocco Dinamico"
 "Save and Continue Edit","Salva e continua modifica"
 "New Dynamic Block","Nuovo Blocco Dinamico"
+"Are you sure you want to do this?","Sei sicuro di volerlo fare?"
+Reset,Ripristina
 "Default Content","Contenuto predefinito"
 "No Default Content","Nessun contenuto predefinito"
 "Dynamic Block Default Content for All Store Views","Contenuto predefinito Blocchi Dinamici per tutte le Viste Negozio"
@@ -913,6 +933,7 @@ Active,Attiva
 Inactive,Inattivo
 "Applies To","Si applica a"
 "Any Dynamic Block Type","Aggiungi Tipo di Blocco Dinamico"
+"Specified Dynamic Block Types","Tipi di blocco dinamico specificati"
 "Specify Types","Specifica Tipi"
 "Dynamic Block Information","Informazioni Blocco Dinamico"
 "Dynamic Block","Blocco Dinamico"
@@ -928,19 +949,37 @@ Position,Posizione
 "Edit Dynamic Block","Modifica Blocco Dinamico"
 "Please select a dynamic block(s).","Seleziona un blocco dinamico."
 "You deleted %1 record(s).","Hai eliminato %1 record."
+"Something went wrong while mass-deleting dynamic blocks. Please review the action log and try again.","Qualcosa è andato storto durante l'eliminazione massiva dei blocchi dinamici. Riesamina il log delle azioni e riprova ancora."
+"This dynamic block does not exist.","Questo blocco dinamico non esiste."
+"You saved the dynamic block.","Hai salvato il blocco dinamico."
+"We cannot save the dynamic block.","Non possiamo salvare il blocco dinamico."
+"Invalid Request","Richiesta non valida"
 "Please enter a name.","Inserisci un nome."
+"Content includes restricted HTML elements. %1","Il contenuto include elementi HTML non permessi. %1"
+"Make sure that dynamic blocks rotator does not reference the dynamic block itself.","Assicurarsi che il contenuto del blocco dinamico non faccia riferimento al blocco dinamico stesso."
 "-- None --","-- Nessuno --"
+"Invalid content","Contenuto non valido"
 "Content Area","Area del contenuto"
 Footer,"Piè di pagina"
 Header,Intestazione
 "Left Column","Colonna sinistra"
 "Right Column","Colonna destra"
+"Manage Dynamic Blocks","Gestisci blocchi dinamici"
+"Dynamic Blocks Rotator","Rotatore Blocchi Dinamici"
 "Catalog Price Rule Related","Regola Prezzo Catalogo Correlata"
 "Rotation Mode","Modalità di rotazione"
 "Display all instead of rotating","Visualizza tutto invece di ruotare"
 "One at the time, Random","Uno alla volta, Random"
 "One at the time, Series","Uno alla volta, in serie"
 "One at the time, Shuffle","Uno alla volta, Casuale"
+"Specify Dynamic Blocks","Specifica i blocchi dinamici"
+"Status Label","Etichetta di Stato"
+"General Information","Informazioni Generali"
+"Enable Dynamic Block","Abilita blocco dinamico"
+"Use Default Value","Usa il valore predefinito"
+"Cart price rules allows you to setup promotions for items that are in the shopping cart.","Le regole di prezzo del carrello ti permettono di impostare promozioni per gli articoli che sono nel carrello."
+"Add Cart Price Rules","Aggiungi regola di prezzo del carrello"
+"Add Selected","Aggiungi selezionato"
 Visibility,Visibilità
 "All Segments","Tutti i Segmenti"
 "Customer Segment","Segmento cliente"
@@ -1189,7 +1228,6 @@ Fixed,Fisso
 "Add Products to Option","Aggiungi prodotti all'opzione"
 "Delete Option","Elimina Opzione"
 "What are you looking for?","Che cosa stai cercando?"
-"Use Default Value","Usa il valore predefinito"
 "There is no defined renderer for ""%1"" option type.","Non c'è nessun renderer definiti per il tipo di opzione ""%1""."
 "Could not save child: ""%1""","Non è possibile salvare il figlio: ""%1"""
 "Product with specified sku: ""%1"" does not contain option: ""%2""","Prodotto con sku specificato: ""%1"" non contiene l'opzione: ""%2"""
@@ -1434,7 +1472,6 @@ Categories,Categorie
 "Please select products for attributes update.","Seleziona i prodotti per l'aggiornamento degli attributi."
 "Please make sure to define SKU values for all processed products.","Si prega di assicurarsi di definire valori SKU per tutti i prodotti processati."
 "Something went wrong while updating the product(s) attributes.","Qualcosa è andato storto durante l'aggiornamento degli attributi prodotto."
-"Something went wrong while processing the request.","Qualcosa è andato storto durante l'elaborazione della richiesta."
 "Unable to add attribute","Impossibile aggiungere l'attributo"
 "Manage Product Attributes","Gestisci gli attributi prodotto"
 "We can't delete the attribute.","Impossibile eliminare l'attributo."
@@ -1741,7 +1778,6 @@ Prev,Prec
 "Items %1-%2 of %3","Articoli %1-%2 di %3"
 "%1 Item","%1 elemento"
 "%1 Items","%1 elementi"
-Show,Mostra
 "Sort By","Ordina per"
 "Set Ascending Direction","Imposta la direzione crescente"
 "Set Descending Direction","Imposta la direzione decrescente"
@@ -2404,7 +2440,6 @@ View,Mostra
 Block,Blocca
 "Select Block...","Seleziona blocco..."
 "CMS Static Block Default Template","Template predefinito Blocco statico CMS"
-"General Information","Informazioni Generali"
 "Enable Block","Abilita blocco"
 "Block Title","Titolo blocco"
 "Are you sure you want to delete selected items?","Sicuro di voler eliminare gli elementi selezionati?"
@@ -2788,7 +2823,6 @@ Reverted,Ripristinato
 "The Payment on Account method is not available in the selected currency. Please contact the seller.","Il metodo di pagamento Mettilo In Conto non è disponibile nella valuta selezionata. Per favore contatta il venditore."
 "Company credit account will be charged: ","L'account del credito aziendale verrà cambiato: "
 "Cancel the Order","Annulla l'ordine"
-"This is a required field.","Questo è un campo obbligatorio."
 "{oldCur}/{newCur} Rate","Cambio {oldCur}/{newCur}"
 Reimburse,Rimborsa
 "Please use only letters (a-z or A-Z), numbers (0-9), dash (-) or slash (/) in this field.","Per favore usa solo lettere (a-z or A-Z), numeri (0-9), trattino (-) o slash (/) in questo campo."
@@ -4171,7 +4205,6 @@ Numeric,Numerico
 Generate,Genera
 "Code Pool used: ","Code pool utilizzato: "
 " (free "," (gratis "
-" of "," di "
 " total)."," totale)."
 "Refund Gift Cards to Store Credit","Rimborsa gift card al credito del negozio"
 "Add Gift Card","Aggiungi Buono Regalo"
@@ -7976,10 +8009,12 @@ Unrequested,"Non richiesta"
 "Sitemap Information","Informazioni sitemap"
 Filename,"Nome file"
 "example: sitemap.xml","esempio: sitemap.xml"
+"example: ""/media/sitemap/"" for base path (path must be writeable)","esempio: ""/media/sitemap/"" per il percorso base (il percorso deve essere scrivibile)"
 "Add Sitemap","Aggiungi sitemap"
 "You deleted the sitemap.","Hai eliminato la sitemap."
 "We can't find a sitemap to delete.","Non è possibile trovare una sitemap da eliminare."
 "This sitemap no longer exists.","Questa sitemap non esiste più."
+"Site Map",Sitemap
 "New Site Map","Nuova sitemap"
 "The sitemap ""%1"" has been generated.","La sistemap ""%1"" è stata generata."
 "We can't generate the sitemap right now.","Non è possibile generare la sitemap in questo momento."
@@ -8001,6 +8036,7 @@ Yearly,Annuale
 "Products Options","Opzioni Prodotti"
 "Add Images into Sitemap","Aggiungere immagini nella Sitemap"
 "CMS Pages Options","Opzioni Pagine CMS"
+"Store Url Options","Opzioni URL Negozio"
 "Generation Settings","Impostazioni di generazione"
 "Sitemap File Limits","Limiti del File Sitemap"
 "Maximum No of URLs Per File","Numero massimo di URL per file"
@@ -8527,8 +8563,6 @@ Scope:,Ambito:
 "For the best experience on our site, be sure to turn on Local Storage in your browser.","Per la migliore esperienza sul nostro sito, assicurati di attivare la memorizzazione locale nel tuo browser."
 "Items %1 to %2 of %3 total","%1 elementi di %2 di %3 totali"
 "%1 Item(s)","%1 elementi"
-Page,Pagina
-"You're currently reading page","Attualmente stai leggendo la pagina"
 "%name,","%nome,"
 "We don't recognize this file extension.","Non riconosciamo questa estensione file."
 "1 column","1 colonna"
@@ -8576,7 +8610,6 @@ Translations,Traduzioni
 "New %1","Nuovo %1"
 "Unsupported bookmark action.","Azione di segnalibro non supportato."
 Filters,Filtri
-Selected,Selezionato
 "Select All on This Page","Seleziona tutto di questa pagina"
 "Deselect All on This Page","Deseleziona tutto della pagina"
 On,Attivo
@@ -8588,7 +8621,6 @@ Off,"Non attivo"
 "You have successfully saved your edits.","Le tue modifiche sono state salvate correttamente."
 "There are {placeholder} messages requires your attention.","Ci sono {placeholder} messaggi che richiedono la tua attenzione."
 "You haven't selected any items!","Non hai selezionato alcun elemento!"
-"Search by keyword","Ricerca per parola chiave"
 Keyword,"Parola chiave"
 "Please enter more or equal than {0} symbols.","Inserisci un numero di simboli maggiori o uguali a {0}."
 "Please enter less or equal than {0} symbols.","Inserisci un numero di simboli minore o uguale a {0}."
